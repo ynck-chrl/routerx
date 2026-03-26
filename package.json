@@ -1,0 +1,54 @@
+{
+  "name": "@nativelayer.dev/routerx",
+  "version": "0.2.2",
+  "description": "A feature-rich yet lightweight vanilla JavaScript designed for both MPA and SPA",
+  "type": "module",
+  "main": "./dist/routerx.cjs.min.js",
+  "module": "./dist/routerx.esm.min.js",
+  "browser": "./dist/routerx.min.js",
+  "types": "./dist/routerx.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/routerx.esm.min.js",
+      "require": "./dist/routerx.cjs.min.js",
+      "browser": "./dist/routerx.esm.min.js"
+    },
+    "./dist/*": "./dist/*"
+  },
+  "author": "Yannick J.A. Charlery <info@nativelayer.dev>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynck-chrl/routerx.git"
+  },
+  "homepage": "https://github.com/ynck-chrl/routerx#readme",
+  "bugs": {
+    "url": "https://github.com/ynck-chrl/routerx/issues"
+  },
+  "keywords": [
+    "router",
+    "routing",
+    "javascript",
+    "vanilla",
+    "mpa",
+    "multi-page",
+    "navigation",
+    "history",
+    "spa",
+    "lightweight",
+    "guards",
+    "lazy-loading",
+    "middleware",
+    "hooks"
+  ],
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE",
+    "*.md"
+  ]
+}
